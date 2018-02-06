@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
-  "url": "",
+  "modid": "fm",
+  "name": "first Mod",
+  "description": "our very first mod",
+  "version": "0.1",
+  "mcversion": "[1.12.2]",
+  "url": "https:\\\\digitalphoenix.at",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["digitalPhoenix"],
+  "credits": "Credits to all members",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
