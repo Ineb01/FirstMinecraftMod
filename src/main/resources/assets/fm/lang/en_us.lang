@@ -1,5 +1,6 @@
 //Items
 item.fire_rune.name=Fire Rune
+item.wood_rune.name=Wood Rune
 
 //Blocks
 tile.fire_rune_block.name=Fire Rune Block

@@ -12,4 +12,6 @@ public class ModItems {
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 	
 	public static final Item FIRE_RUNE = new ItemBase("fire_rune");
+	public static final Item WOOD_RUNE = new ItemBase("wood_rune");
+	
 }
