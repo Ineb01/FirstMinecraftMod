@@ -2,6 +2,7 @@ package at.digitalphoenix.firstmod;
 
 import at.digitalphoenix.firstmod.proxy.CommonProxy;
 import at.digitalphoenix.firstmod.util.Reference;
+
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;

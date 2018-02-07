@@ -3,6 +3,7 @@ package at.digitalphoenix.firstmod.items;
 import at.digitalphoenix.firstmod.Main;
 import at.digitalphoenix.firstmod.init.ModItems;
 import at.digitalphoenix.firstmod.util.IHasModel;
+
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 

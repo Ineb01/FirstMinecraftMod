@@ -1,6 +1,7 @@
 package at.digitalphoenix.firstmod.proxy;
 
 import at.digitalphoenix.firstmod.items.ItemBase;
+
 import net.minecraft.item.Item;
 
 public class CommonProxy {

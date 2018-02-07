@@ -1,7 +1,10 @@
 package at.digitalphoenix.firstmod.util.handlers;
 
+import at.digitalphoenix.firstmod.init.ModBlocks;
 import at.digitalphoenix.firstmod.init.ModItems;
 import at.digitalphoenix.firstmod.util.IHasModel;
+
+import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
@@ -17,11 +20,22 @@ public class RegisteryHandler {
 	}
 	
 	@SubscribeEvent
+	public static void onBlockRegister(RegistryEvent.Register<Block> event) {
+		event.getRegistry().registerAll(ModBlocks.BLOCKS.toArray(new Block[0]));
+	}
+	
+	@SubscribeEvent
 	public static void onModelRegister(ModelRegistryEvent event) {
 		
 		for(Item item : ModItems.ITEMS) {
 			if(item instanceof IHasModel) {
 				((IHasModel)item).registerModels();
+			}
+		}
+		
+		for(Block block : ModBlocks.BLOCKS) {
+			if(block instanceof IHasModel) {
+				((IHasModel)block).registerModels();
 			}
 		}
 	}
