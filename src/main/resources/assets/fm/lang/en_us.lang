@@ -2,4 +2,5 @@
 item.fire_rune.name=Fire Rune
 
 //Blocks
-block.fire_rune_block.name=Fire Rune Block
+tile.fire_rune_block.name=Fire Rune Block
+tile.fire_lamp_block.name=Fire Lamp

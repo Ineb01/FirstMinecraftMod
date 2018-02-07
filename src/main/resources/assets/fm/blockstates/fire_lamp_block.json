@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "fm:fire_lamp_block" }
+    }
+}
