@@ -14,5 +14,10 @@ public class ModBlocks {
 	public static final List<Block> BLOCKS = new ArrayList<Block>();
 	
 	public static final Block FIRE_RUNE_BLOCK = new BlockBase("fire_rune_block", Material.IRON);
+<<<<<<< HEAD
 	public static final Block FIRE_LAMP_BLOCK = new FireLamp("fire_lamp_block", Material.IRON, 15);
+=======
+	
+	public static final Block FIRE_LAMP_BLOCK = new FireLamp("fire_lamp_block", Material.IRON, 16);
+>>>>>>> branch 'master' of https://github.com/Ineb01/FirstMinecraftMod.git
 }
