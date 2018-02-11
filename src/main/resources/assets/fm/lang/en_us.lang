@@ -5,3 +5,4 @@ item.wood_rune.name=Wood Rune
 //Blocks
 tile.fire_rune_block.name=Fire Rune Block
 tile.fire_lamp_block.name=Fire Lamp
+itemGroup.FirstModTab=FirstModTab

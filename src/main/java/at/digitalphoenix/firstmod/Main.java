@@ -20,6 +20,8 @@ public class Main {
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
 	public static CommonProxy proxy;
 	
+	public static final FirstModTab firstModTab = new FirstModTab("FirstModTab");
+	
 	@EventHandler
 	public static void PreInit(FMLPreInitializationEvent event) {
 		
