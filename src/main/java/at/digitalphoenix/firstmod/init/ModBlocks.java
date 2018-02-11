@@ -15,5 +15,5 @@ public class ModBlocks {
 	
 	public static final Block FIRE_RUNE_BLOCK = new BlockBase("fire_rune_block", Material.IRON);
 	
-	public static final Block FIRE_LAMP_BLOCK = new FireLamp("fire_lamp_block", Material.IRON, 15.0f);
+	public static final Block FIRE_LAMP_BLOCK = new FireLamp("fire_lamp_block", Material.IRON, 15);
 }
